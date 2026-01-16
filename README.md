@@ -69,7 +69,7 @@ ALLOWED_TYPES = {"CODE_128", "CODE_39", "DATA_MATRIX", "PDF_417", "AZTEC", "QRCO
 ---
 
 **Compile:**
-```python
+```bash
 pyinstaller --noconsole --onefile --windowed main.py
 ```
 
