@@ -35,7 +35,7 @@ pip install opencv-python pyzbar pillow customtkinter
 3. Run the scanner:
 
 ```bash
-python scanner.py
+python main.py
 ```
 
 4. The UI will open:
@@ -54,8 +54,8 @@ python scanner.py
 * **Rectangle color:** Change BGR values in the `cv2.rectangle()` calls:
 
 ```python
-cv2.rectangle(frame, (x,y), (x+w,y+h), (0,0,255), 2)  # Red
 cv2.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 2)  # Green
+cv2.rectangle(frame, (x,y), (x+w,y+h), (0,0,255), 2)  # Red
 ```
 
 * **Allowed barcode types:** Update the `ALLOWED_TYPES` set:
