@@ -68,9 +68,10 @@ ALLOWED_TYPES = {"CODE_128", "CODE_39", "DATA_MATRIX", "PDF_417", "AZTEC", "QRCO
 
 ---
 
-## 🖼 Screenshots
-
-*(You can add your own screenshots here showing the camera feed, logs, and boxes.)*
+**Compile:**
+```python
+pyinstaller --noconsole --onefile --windowed main.py
+```
 
 ---
 
